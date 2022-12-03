@@ -7,10 +7,10 @@ export default function App() {
   const [openBottomSheet, setOpenBottomSheet] = useState(false)
 
   return (
-    <div className='max-w-sm mx-auto min-h-screen grid'>
+    <div className='max-w-md mx-auto min-h-screen grid'>
       <Navbar />
       <div
-        className={`bg-gray-50 transition-all mt-auto  ${
+        className={`bg-gray-50 transition-all duration-300 mt-auto  ${
           openBottomSheet
             ? 'h-full'
             : 'h-16 flex rounded-t-xl items-center justify-center'

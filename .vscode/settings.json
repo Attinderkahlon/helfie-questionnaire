@@ -15,5 +15,5 @@
   "importSorter.sortConfiguration.removeUnusedDefaultImports": true,
   "svg.preview.background": "custom",
   "cSpell.words": ["helfie"],
-  "cSpell.ignoreWords": ["daisyui", "tailwindcss"]
+  "cSpell.ignoreWords": ["daisyui", "tailwindcss", "zustand"]
 }
