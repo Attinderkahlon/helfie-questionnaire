@@ -1,14 +1,29 @@
 export type MaleData = {
-  survey?: boolean
-  photosPermission?: boolean
-  photosSymptoms?: string
-  symptoms?: number[] | string | number
-  location?: boolean
-  happy?: boolean
-  condition?: number
-  blisters?: number
-  discharge?: number
-  pain?: number
+  gender?: string
+  symptoms?: boolean
+  selfDiagnose?: boolean
+  symptomsType?: string | boolean
+  symptomsLocation?: string
+  photosConsent?: boolean
+  conditionOne?: string
+  conditionTwo?: string
+  symptomsOne?: string
+  symptomsTwo?: string
+  symptomsThree?: string
+  symptomsFour?: string
+  symptomsFive?: string
+  symptomsSix?: string
+  symptomsSeven?: string
+  symptomsEight?: string
+  symptomsNine?: string
+  sorePain?: string
+  symptomsTen?: string
+  discharge?: string
+  symptomsEleven?: string
+  pain?: string
+  painTwo?: number
+  duration?: number
+  completion?: string
 }
 
 //create sample data for MaleData type
