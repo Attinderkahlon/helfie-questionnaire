@@ -17,6 +17,7 @@ export default function Questionnaire({}: QuestionnaireProps) {
   const { maleData } = useMaleStore()
 
   console.log(maleData)
+  console.log(Math.round(Math.random() * (2000 - 1000)) + 1000)
 
   useEffect(() => {
     window.scrollTo({

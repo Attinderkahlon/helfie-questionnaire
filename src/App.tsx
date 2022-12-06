@@ -1,8 +1,8 @@
 import { useState } from 'react'
 
+import GetStarted from './components/layout/GetStarted'
 import LandingPage from './components/layout/LandingPage'
 import Navbar from './components/layout/Navbar'
-import Questionnaire from './pages/questionnaire'
 
 export default function App() {
   const [openBottomSheet, setOpenBottomSheet] = useState(false)
@@ -23,7 +23,7 @@ export default function App() {
         {!openBottomSheet && (
           <span className='text-blue-600 font-bold text-xl'>Check Now</span>
         )}
-        {openBottomSheet && <Questionnaire />}
+        {openBottomSheet && <GetStarted />}
       </div>
     </div>
   )

@@ -18,7 +18,7 @@ export const useMaleStore = create<State>((set) => ({
           aiRunning: false,
           maleData: { ...state.maleData, ...data },
         })),
-      2000
+      Math.round(Math.random() * (2000 - 1000)) + 1000
     )
   },
   aiRunning: false,

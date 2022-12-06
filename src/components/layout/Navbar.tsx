@@ -1,5 +1,5 @@
+import Loader from '../../assets/svg/Loader'
 import { useMaleStore } from '../../store'
-import Loader from '../Loader'
 
 export type NavbarProps = {}
 
@@ -15,7 +15,7 @@ export default function Navbar({}: NavbarProps) {
           </div>
         ) : (
           <div className='bg-white h-10 text-blue-600 font-bold w-10 rounded-full shadow flex items-center justify-center'>
-            <span>H</span>{' '}
+            <span>H</span>
           </div>
         )}
         <span className='text-white'>Helfie Assistant</span>

@@ -20,7 +20,7 @@ export default function ConditionOne({}: ConditionOneProps) {
         </h2>
       </ChatContainer>
       <ChatContainer type='answer'>
-        <div className='grid grid-cols-2 gap-x-0 gap-y-6 p-0 m-0'>
+        <div className='grid grid-cols-2 gap-x-2 gap-y-6 p-0 m-0'>
           <label>
             <input
               type='radio'
