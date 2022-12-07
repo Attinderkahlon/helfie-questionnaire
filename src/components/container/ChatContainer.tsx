@@ -13,9 +13,9 @@ export default function ChatContainer({
 }: ChatContainerProps) {
   return (
     <div
-      className={`relative grid w-5/6 p-2 text-xl animate-fade-in-down ${
+      className={`relative grid w-5/6 p-2 text-xl  animate-fade-in-down ${
         type === 'question'
-          ? 'bg-slate-300 rounded-r-md rounded-bl-md'
+          ? 'bg-slate-300  rounded-r-md rounded-bl-md'
           : 'bg-blue-600 ml-auto rounded-l-md rounded-br-md'
       }`}
     >
